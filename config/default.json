@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://GOVACT:YdI5YGQCTgUnwxfj@cluster0.qmjhv.mongodb.net/GOVACT?retryWrites=true&w=majority",
+    "jwtSecret": "sl_myJwtSecret"
+}

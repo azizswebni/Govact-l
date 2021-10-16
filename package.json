@@ -1,0 +1,26 @@
+{
+  "name": "govact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix frontend",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "Govact": "npm start --prefix Govact ",
+    "dev": "concurrently \"npm run server\" \"npm run Govact\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
